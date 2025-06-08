@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+    <button class="menu-hamburguesa" id="menu-hamburguesa">
+        &#9776; </button>
+    <div class="enlaces-nav" id="enlaces-nav">
+        <a href="index.html">Inicio</a>
+        <a href="sobre-mi.html">Sobre Mí</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </div>
+</nav>
+    <main>
+    <h2>Hablemos. Estoy aquí para ayudarte.</h2>
+    <p>Completa el siguiente formulario o utiliza los datos de contacto directos. Responderé a tu consulta a la brevedad.</p>
+
+    <div class="contacto-contenedor">
+        
+        <div class="formulario-contacto">
+            <form action="https://formspree.io/f/xgvyojkj" method="POST">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="telefono">Teléfono (Opcional):</label>
+                <input type="tel" id="telefono" name="telefono">
+
+                <label for="mensaje">¿Cómo puedo ayudarte?</label>
+                <textarea id="mensaje" name="mensaje" rows="6" required></textarea>
+
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </div>
+
+        <div class="info-contacto">
+            <h3>Información Directa</h3>
+            <p><strong>Email:</strong> <a href="mailto:tuemail@example.com">romi_ruiz88@hotmil.com</a></p>
+            <p><strong>Teléfono:</strong> <a href="tel:+5492964123456">+54 9 2964 493875</a></p>
+            <p><strong>Dirección:</strong> Jauretche 836, Río Grande, Tierra del Fuego</p>
+            
+            <h3>Ubicación del Centro Integral de Salud AGP</h3>
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d589.132977936265!2d-67.68427012520202!3d-53.79781822363255!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xbc4b17a2e728a9a3%3A0x2e73dde4e94be0b3!2sCentro%20Integral%20de%20Salud%20AGP!5e0!3m2!1ses-419!2sar!4v1749235669626!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" 
+                width="100%" 
+                height="300" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </div>
+</main>
+<footer>
+        <p class="foot">&copy; 2025 | Lic.Ruiz Miranda Romina - Consultorio de Fonoaudiología | Todos los derechos reservados.</p>
+        <p class="foot">Sitio web creado por Pablo Maldonado.</p>
+        </footer>
+        <script src="script.js"></script>
+</body>
+</html>
